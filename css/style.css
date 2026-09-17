@@ -1,0 +1,158 @@
+/* Custom styling complementing Twitter Bootstrap 5 */
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    --card-bg: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --border-color: #334155;
+    --success-color: #10b981;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.main-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+    background-color: rgba(30, 41, 59, 0.8);
+    border-bottom: 1px solid #334155;
+    padding: 1.25rem 1.5rem;
+}
+
+.form-control, .form-select {
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    color: #f8fafc;
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+}
+
+.form-control:focus {
+    background-color: #0f172a;
+    color: #ffffff;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+}
+
+.form-control::placeholder {
+    color: #64748b;
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    font-weight: 600;
+    padding: 0.65rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+    transform: translateY(-1px);
+}
+
+.table-custom {
+    color: #cbd5e1;
+    border-color: #334155;
+}
+
+.table-custom th {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 1rem;
+    border-bottom: 2px solid #334155;
+}
+
+.table-custom td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-color: #334155;
+}
+
+.table-custom tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.table-custom tbody tr:hover {
+    background-color: rgba(51, 65, 85, 0.5);
+}
+
+.table-custom tfoot tr {
+    background-color: #0f172a;
+    font-weight: 700;
+    border-top: 2px solid #6366f1;
+}
+
+.badge-qty {
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 0.4em 0.75em;
+    border-radius: 6px;
+}
+
+.badge-price {
+    background-color: #10b981;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 0.4em 0.75em;
+    border-radius: 6px;
+}
+
+.total-value-text {
+    color: #38bdf8;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.grand-total-text {
+    color: #4ade80;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.modal-content {
+    background-color: #1e293b;
+    border: 1px solid #475569;
+    color: #f8fafc;
+}
+
+.modal-header, .modal-footer {
+    border-color: #334155;
+}
+
+.btn-close-white {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.live-calc-badge {
+    font-size: 0.9rem;
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    color: #818cf8;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}

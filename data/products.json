@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prod_66f2a801",
+    "product_name": "Ergonomic Office Chair",
+    "quantity_in_stock": 10,
+    "price_per_item": 199.99,
+    "total_value": 1999.90,
+    "datetime_submitted": "2026-09-17 10:15:00"
+  },
+  {
+    "id": "prod_66f2a802",
+    "product_name": "Mechanical Keyboard",
+    "quantity_in_stock": 25,
+    "price_per_item": 79.50,
+    "total_value": 1987.50,
+    "datetime_submitted": "2026-09-17 11:30:22"
+  },
+  {
+    "id": "prod_66f2a803",
+    "product_name": "Ultra-Wide Gaming Monitor 34\"",
+    "quantity_in_stock": 5,
+    "price_per_item": 450.00,
+    "total_value": 2250.00,
+    "datetime_submitted": "2026-09-17 14:05:45"
+  }
+]
